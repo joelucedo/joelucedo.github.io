@@ -53,39 +53,39 @@
 						<div class="inner">
 							<h1>Teensy 4 audio carrier</h1>
 							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<h2>Presentation</h2>
+							<h2>Présentation</h2>
 							<p>
-								Aucun <strong>carrier audio complet</strong>  n'étant disponible pour les <strong><a href="https://www.pjrc.com/teensy/">Teensy 4 et 4.1</a></strong>, j'ai créé ce projet pour avoir une
-								plate-forme me permettant de développer des instruments de musique électronique sans devoir passer
-								par une breadboard. J'ai réalisé le circuit avec <strong>Eagle</strong>, c'est un 2 couches
-								à signaux mixtes qui a nécessité de splitter le plan de masse pour isoler l'analogique du digital.
+								J'ai créé ce projet parce ce qu'il n'existe pas de <strong>carrier audio</strong> pour les <strong><a href="https://www.pjrc.com/teensy/" target="_blank">Teensy 4 et 4.1</a></strong>.
+								Ce carrier me permet de développer des instruments de musique électronique sans devoir passer
+								par du prototypage sur une breadboard. J'ai réalisé le circuit avec <strong>Eagle</strong>, il s'agit d'un circuit un <strong>2 couches
+								à signaux mixtes</strong> qui a nécessité de splitter le plan de masse pour isoler l'analogique du digital.
 							</p>
 							<p>
 								Tous les composants sont en <strong> SMD 0805</strong>  sauf les composants mécaniques (connecteurs et potentiomètres).
-								La production et l'assemblage ont été réalisé par <strong><a href="https://jlcpcb.com/">JLCPCB</a></strong>.
+								La production et l'assemblage ont été réalisé par <strong><a href="https://jlcpcb.com/" target="_blank">JLCPCB</a></strong>.
 							</p>
 						</div>
 
 						<div class="inner">
-							<h2>Specifications</h2>
+							<h2>Spécifications et fonctionnalités</h2>
 							<ul>
-								<li>Audio codec : WM8731 (stereo 24bit 96Khz max)</li>
-								<li>Ecran 2.6 pouces ILI9431</li>
-								<li>24x potentiomètres (multipléxés)</li>
+								<li>Audio codec : WM8731 (stéréo 24bit 96Khz max)</li>
+								<li>LDO dédié au circuit audio analogique</li>
+								<li>SPI display 2.8'' ILI9431 (240RGBx320 Resolution & 262K color)</li>
+								<li>25x potentiomètres (multiplexés)</li>
 								<li>1x encodeur rotatif</li>
-								<li>1x contrôle du volume</li>
-								<li>Régulateur dédié pour la partie analogique</li>
+								<li>I2C EEPROM de 256Kb</li>
 								<li>Sortie line</li>
 								<li>Sortie casque</li>
 								<li>Support MIDI : in, out, thru</li>
-								<li>EEPROM de 256Kb</li>
+
 
 							</ul>
 						</div>
 
 						<div class="inner">
 							<h2>Github Repo</h2>
-							<a href="https://github.com/joelucedo/Headphone-amplifier">Here</a>
+							<a href="https://github.com/joelucedo/Teensy4-audio-carrier" target="_blank">Here</a>
 							<p></p>
 						</div>
 					</div>
