@@ -50,25 +50,11 @@
 							<h1>ESP32 Wrover E/IE audio dev board</h1>
 							<h2>Présentation</h2>
 							<p>
-								Ce circuit marque mon passage de Eagle à <strong>Kicad 6</strong>.
-								C'est aussi mon premier circuit <strong>4 couches</strong>.
-								J'ai réalisé ce circuit pour disposer d'une <strong>plate-forme
-								compacte</strong> comprenant tout le nécessaire pour développer avec le langage de synthèse sonore <strong><a href="https://faust.grame.fr/" target="_blank">FAUST</a></strong>. On trouve quelques
-								cartes de développement à ESP32 supportée par FAUST mais aucune n'est très compacte, elles ne disposent pas
-								du layer physique MIDI, le nombre d'IO est limité et elles n'ont pas toujours un socket pour une micro SD.
+								Ce circuit est une platforme audio compacte conçue avec l'objectif d'être supportée par
+								le langage de synthèse sonore <strong><a href="https://faust.grame.fr/" target="_blank">FAUST</a></strong>.
+								C'est un circuit 4 couches créé avec <strong>Kicad 6</strong>. Tous les composants sont en <strong>SMD 0603</strong>,
+								monté et soudé par JLCPCB. La carte se programme par <strong>USB</strong> via l'IDE Arduino ou VSCode et ESP-IDF.
 							</p>
-						</div>
-
-						<div class="inner">
-							<h2>Spécifications et fonctionnalités</h2>
-							<ul>
-								<li>MCU : ESP32-WROVER-IE-N16R8 (64Mbit PSRAM - 16 MB SPI flash)</li>
-								<li>Audio codec : <strong><a href="https://www.mouser.com/datasheet/2/76/WM8978_v4.5-1141768.pdf" target="_blank">WM8978</a></strong> (differential mic inputs - line in - aux - line out - speaker out - headphone)</li>
-								<li>MIDI support : in, out, thru</li>
-								<li>16x multiplexer</li>
-								<li>2x27 header (exposed : all audio codec IO, all mux IO, MIDI interface, 4 MCU inputs, VCC and GND)</li>
-								<li>Micro sd socket</li>
-							</ul>
 						</div>
 
 						<div class="inner">
@@ -82,7 +68,7 @@
 						<div class="inner">
 							<section>
 								<h2>Me contacter</h2>
-								<form method="post" action="#">
+								<form action="https://formspree.io/f/xyyaowwp" method="POST">
 									<div class="fields">
 										<div class="field half">
 											<input type="text" name="name" id="name" placeholder="Nom" />
