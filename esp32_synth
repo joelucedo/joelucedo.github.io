@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Ucedo Joël Portfolio</title>
+		<title>Generic - Phantom by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,7 +22,7 @@
 
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">UCEDO LANDU JOËL</span>
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Accueil</span>
 								</a>
 
 							<!-- Nav -->
@@ -47,45 +47,18 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<header>
-								<h1>Technicien bachelier en électronique
-								<br/>À la recherche de nouvelles opportunités</h1>
-								<p><B>Électronique embarquée - Conception hardware - PCB design - Tests et mesures</B></p>
-							</header>
-							<section class="tiles">
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<a href="hpamp1.html">
-										<h2>Headphone amplifier</h2>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<a href="t4audiocarrier.html">
-										<h2>Teensy 4 audio carrier</h2>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<a href="wroversom.html">
-										<h2>ESP32 Wrover E/IE audio dev board</h2>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
-									</span>
-									<a href="esp32_synth.html">
-										<h2>ESP32 Synth</h2>
-									</a>
-								</article>
-							</section>
+							<h1>ESP32 Synth</h1>
+							<img src="images/esp32_synth.jpg" alt="ESP32 Synth" width="500" height="500">
+							<h2>Présentation</h2>
+							<p>
+								Synthétiseur supporté par le langage de programmation audio <strong><a href="https://faust.grame.fr/" target="_blank">FAUST</a></strong> et basé sur un module ESP32 Wrover.
+								C'est un circuit 4 couches créé avec <strong>Kicad 6</strong>.
+							</p>
+						</div>
+
+						<div class="inner">
+							<h2>Github Repo</h2>
+							<a href="https://github.com/joelucedo/ESP32-synth1" target="_blank"><img src="images/github-logo.png" alt="repo-link" style="width:80px;height:80px;"></a>
 						</div>
 					</div>
 
